@@ -5,7 +5,7 @@ const Profile = () => {
   return (
     <div className="profile-container">
       <div className="container m-5">
-        <h1 style={{height:"200px", fontSize:"50px", fontWeight:"bold", fontFamily:"sans-serif"}}><img style={{height:"90px", width:"90px", marginRight:"20px"}} src="./userlogo.png"/>WELCOME, USER</h1>
+        <h1 style={{height:"200px", fontSize:"50px", fontWeight:"bold", fontFamily:"sans-serif"}}><img style={{height:"90px", width:"90px", marginRight:"20px"}} src="./images/userlogo.png"/>WELCOME, USER</h1>
       </div>
       <div className="profile-grid ms-5">
         <Link to="/account" className="profile-box text-dark d-flex flex-column"><img style={{height:"80px", width:"80px", marginBottom:"5px"}} src="./user.png"/>Account</Link>
